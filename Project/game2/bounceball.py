@@ -21,7 +21,7 @@ current_path = os.path.dirname(__file__) # 현재 파일의 위치 반환
 image_path = os.path.join(current_path, "images") # images 폴더 위치 반환
 
 # 배경 만들기
-background = pygame.image.load(os.path.join(image_path, "background.png"))
+background = pygame.image.load(os.path.join(image_path, "background.jpeg"))
 
 # 스테이지 만들기
 stage = pygame.image.load(os.path.join(image_path, "stage.png"))
@@ -43,7 +43,7 @@ character_to_x = 0
 character_speed = 5
 
 # 무기 만들기
-weapon = pygame.image.load(os.path.join(image_path, "cina.png"))
+weapon = pygame.image.load(os.path.join(image_path, "weapon.png"))
 weapon_size = weapon.get_rect().size
 weapon_width = weapon_size[0]
 
