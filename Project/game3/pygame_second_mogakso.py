@@ -8,13 +8,13 @@ SCREEN_HEIGHT = 600
 SCREEN_WIDTH = 1100
 SCREEN = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
 
-RUNNING = [pygame.image.load("Project/game3/Assets/Dino/Run1.png"),
-           pygame.image.load("Project/game3/Assets/Dino/Run2.png")]
+RUNNING = [pygame.image.load("Project/game3/Assets/Chitto/Run1.png"),
+           pygame.image.load("Project/game3/Assets/Chitto/Run2.png")]
 
-JUMPING = pygame.image.load("Project/game3/Assets/Dino/Jump.png")
+JUMPING = pygame.image.load("Project/game3/Assets/Chitto/Jump.png")
 
-DUCKING = [pygame.image.load("Project/game3/Assets/Dino/Duck1.png"),
-           pygame.image.load("Project/game3/Assets/Dino/Duck2.png")]
+DUCKING = [pygame.image.load("Project/game3/Assets/Chitto/Duck1.png"),
+           pygame.image.load("Project/game3/Assets/Chitto/Duck2.png")]
 
 SMALL_CACTUS = [pygame.image.load("Project/game3/Assets/Cactus/Pencle.png"),
                 pygame.image.load("Project/game3/Assets/Cactus/Horse.png"),
