@@ -15,11 +15,11 @@ clock = pygame.time.Clock()
 
 
 # 배경 이미지 불러오기
-background = pygame.image.load("Project/game1/background.png")
+background = pygame.image.load("background.png")
 
 
 # 캐릭터 ( 스프라이트 ) 불러오기
-chitto = pygame.image.load("Project/game1/chitto.png")
+chitto = pygame.image.load("chitto.png")
 chitto_size = chitto.get_rect().size # 이미지의 크기를 구해옴
 chitto_width = chitto_size[0]  # 캐릭터의 가로 크기
 chitto_height = chitto_size[1] # 캐릭터의 세로 크기
@@ -34,7 +34,7 @@ to_y = 0
 chractrer_speed  = 0.6
 
 # 적 enemy 캐릭터
-enemy = pygame.image.load("Project/game1/enemy.png")
+enemy = pygame.image.load("enemy.png")
 enemy_size = enemy.get_rect().size # 이미지의 크기를 구해옴
 enemy_width = enemy_size[0]  # 캐릭터의 가로 크기
 enemy_height = enemy_size[1] # 캐릭터의 세로 크기
@@ -58,7 +58,7 @@ start_ticks = pygame.time.get_ticks() # 현재 시작 tick 을 받아옴
 # 이벤트 루프
 running = True # 게임이 진행중인가?
 while running :
-    dt = clock.tick(60) # 게임화면의 초당 프레임 수를 설정 
+    dt = clock.tick(120) # 게임화면의 초당 프레임 수를 설정 
 
 # 캐릭터가 100 만크 이동을 해야함
 # 10 fps : 1초 동안에 10번 동작 -> 1번에 몇 만큼 이동? 10만큼 ! 10 * 10 = 100
