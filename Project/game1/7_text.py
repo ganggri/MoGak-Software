@@ -64,7 +64,7 @@ while running :
 # 10 fps : 1초 동안에 10번 동작 -> 1번에 몇 만큼 이동? 10만큼 ! 10 * 10 = 100
 # 20 fps : 1초 동안에 20번 동작 -> 1번에 5만큼 ! 5 * 20 = 100
     print("fps :" + str(clock.get_fps()))
-    
+     
     for event in pygame.event.get():  # 어떤 이벤트가 발생하였는가?
         if event.type == pygame.QUIT: # 창이 닫히는 이벤트가 발생하였는가?
                 running = False # 게임이 진행중이 아님
